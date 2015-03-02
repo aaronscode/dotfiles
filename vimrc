@@ -19,7 +19,6 @@ if has("autocmd")
   autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
   autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab
   autocmd FileType .vimrc setlocal ts=2 sts=2 sw=2 noexpandtab
-
 endif
 
 command! -nargs=* Wrap set wrap linebreak nolist
